@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="Calc.css">
+</head>
+<body>
+  <h1>CALCULATOR</h1>
+    <div id="container">
+      <div id="result"></div>
+      <div class="buttons">
+        <button id="btn1" class="btn" onclick="add('1')">1</button>
+        <button id="btn2" class="btn" onclick="add('2')">2</button>
+        <button id="btn3" class="btn" onclick="add('3')">3</button> 
+        <button id="btnClr" class="btn" onclick="clr()">C</button>  
+
+        <button id="btn4" class="btn" onclick="add('4')">4</button>
+        <button id="btn5" class="btn" onclick="add('5')">5</button>
+        <button id="btn6" class="btn" onclick="add('6')">6</button>
+        <button id="btnSum" class="btn" onclick="op('+')">+</button>
+
+        <button id="btn7" class="btn" onclick="add('7')">7</button>
+        <button id="btn8" class="btn" onclick="add('8')">8</button>
+        <button id="btn9" class="btn" onclick="add('9')">9</button>
+        <button id="btnSub" class="btn" onclick="op('-')">-</button>
+
+        <button id="btnMod" class="btn" onclick="op('%')">%</button>
+        <button id="btn0" class="btn" onclick="add('0')">0</button>        
+        <button id="btnMul" class="btn" onclick="op('*')">*</button>
+        <button id="btnDiv" class="btn" onclick="op('/')">/</button>    
+
+        <button id="btnEql" class="btn" onclick="equal()">=</button>
+      </div>  
+    </div>
+
+    <script src="Calc.js"></script>
+</body>
+</html>

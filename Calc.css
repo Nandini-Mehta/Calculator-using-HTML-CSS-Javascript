@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(94, 158, 158, 0.116);
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 7px 7px 7px  rgb(47, 74, 95);
+}
+#result{
+    height: 80px;
+    background-color: rgb(0, 0, 51); 
+    font-size: 40px;
+    padding-top: 15px ;
+    padding-right: 20px;
+    text-align: right;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    float: left;
+    width: 125px;
+    height: 83px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#btnClr {
+    background-color: rgb(240, 157, 101);
+}
+
+#btnEql{
+    width: 100%;
+    background-color: rgb(238, 138, 71);
+}
+
